@@ -4,6 +4,21 @@ import random
 
 os.chdir("C:\\Users\ezeb0\OneDrive\Escritorio\Curso Python INOVE\PYTHON INICIAL\Python Inicial - Proyecto Integrador\Proyecto")
 
+'''
+Proyecto Python Inicial
+Programa de pedidos de delivery.
+---------------------------
+Autor: Ezequiel Bianco
+Version: 1.0
+
+Descripcion:
+Este programa es una simulacion de un programa para cargar pedidos en un local de comidas
+y envio a domicilio.
+'''
+
+__author__ = "Ezequiel Bianco"
+__email__ = "ezequielbianco1102@gmail.com"
+__version__ = "1.0"
 
 
 def dias_ofertas():
@@ -86,4 +101,3 @@ if __name__ == '__main__':
     forma_pago(como_pago)
     ticket_final()
     delivery()
-
